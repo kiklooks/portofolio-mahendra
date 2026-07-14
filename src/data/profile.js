@@ -16,7 +16,7 @@ const profile = {
 
         github: "https://github.com/kiklooks",
 
-        linkedin: "www.linkedin.com/in/mahendra-rizqi-abhinawa-bb9a13405",
+        linkedin: "https://www.linkedin.com/in/mahendra-rizqi-abhinawa-bb9a13405",
 
         cv: `${BASE}cv/Mahendra-Abhinawa-CV.pdf`,
 
@@ -214,7 +214,7 @@ const profile = {
 
             value: "mahendra-abhinawa",
 
-            link: "www.linkedin.com/in/mahendra-rizqi-abhinawa-bb9a13405"
+            link: "https://www.linkedin.com/in/mahendra-rizqi-abhinawa-bb9a13405"
 
         },
 
