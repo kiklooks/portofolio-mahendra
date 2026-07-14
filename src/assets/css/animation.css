@@ -1,0 +1,55 @@
+/* fade up */
+.fade-up{
+
+opacity:0;
+
+transform:translateY(40px);
+
+animation:fadeUp .8s forwards;
+
+}
+
+@keyframes fadeUp{
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/* Blob */
+.blob{
+
+position:absolute;
+
+width:450px;
+
+height:450px;
+
+border-radius:50%;
+
+background:#60a5fa30;
+
+filter:blur(80px);
+
+animation:blob 9s infinite alternate;
+
+}
+
+@keyframes blob{
+
+100%{
+
+transform:
+
+translate(100px,-50px)
+
+scale(1.15);
+
+}
+
+}
