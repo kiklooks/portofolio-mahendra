@@ -327,6 +327,14 @@ display:flex;
 
 .mobile{
 
+position:absolute;
+
+top:78px;
+
+left:0;
+
+width:100%;
+
 display:flex;
 
 flex-direction:column;
@@ -341,13 +349,15 @@ max-height:0;
 
 overflow:hidden;
 
-transition:.35s;
+transition:max-height .35s ease;
+
+z-index:998;
 
 }
 
 .mobile.show{
 
-max-height:500px;
+max-height:100vh;
 
 }
 

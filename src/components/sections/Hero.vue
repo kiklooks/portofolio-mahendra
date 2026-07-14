@@ -132,7 +132,9 @@ src="/foto-profil.jpg">
 
 .hero{
 
-min-height:100vh;
+min-height:calc(100vh - 78px);
+
+padding-top:78px;
 
 display:flex;
 
@@ -274,6 +276,14 @@ translate(-50%,10px);
 
 }
 
+.cursor{
+
+    color:var(--primary);
+
+    animation:blink .8s infinite;
+
+}
+
 .one{
 
 top:-150px;
@@ -292,6 +302,16 @@ right:-120px;
 
 @media(max-width:900px){
 
+.hero{
+
+padding-top:120px;
+
+padding-bottom:60px;
+
+min-height:auto;
+
+}
+
 .hero-grid{
 
 grid-template-columns:1fr;
@@ -304,13 +324,19 @@ text-align:center;
 
 order:-1;
 
+justify-content:center;
+
+margin-bottom:35px;
+
 }
 
 .circle{
 
-width:280px;
+width:240px;
 
-height:280px;
+height:240px;
+
+margin:auto;
 
 }
 
@@ -323,14 +349,6 @@ font-size:3rem;
 .buttons{
 
 justify-content:center;
-
-}
-
-.cursor{
-
-    color:var(--primary);
-
-    animation:blink .8s infinite;
 
 }
 
